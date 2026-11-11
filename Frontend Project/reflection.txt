@@ -1,0 +1,14 @@
+Joy's Reflection: 
+I learned a lot during this project. At first it would be frustating when I have code that's almost correct, but just one or two things
+missing. But in the end, it felt satisfying knowing I could do most of those things now. For example, I was compiling the flower grid,
+and I couldn't figure out why it wasn't working. After searching it up, I realized there was something in the code before I called the 
+function that stopped the rest of the JavaScript from working. We also came across many roadbumps, but we ended up succeeding in the end. 
+
+
+
+Alirat's Reflection: 
+This project was fun, it was nice to see what we have learned come together and also learn more along the way.
+One new thing I learned was that you can import fonts from Google Fonts with a few lines of code. We were able to use this
+for the bio on the about page. Some of the difficult parts of this project was keeping track of id names between HTML and JavaScript,
+specifically when there was 2 classes named active (one in nav links and one for hamburger) and it took me a while to figure that out.
+In the future, I would want to replace the order form with a cart feature, dynamically create pages for each flower, and add a log in feature.

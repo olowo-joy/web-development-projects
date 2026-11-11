@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJ Floral 🌸</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div>
+        <img src="images/logo.png" class="logo">
+        <span class="name">AJ Floral 🌸</span>
+      </div>
+        <div class="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="flowers.html">Flowers</a></li>
+          <li><a class="activo" href="order.html">Order</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  </header> 
+      <main>
+        <section id="contact">
+          <h1 id="title">Order</h1>
+          <p>Fill your life with flowers! 💐</p>
+        
+
+          <form id="order-form">
+            <label for="firstName">First Name:</label>
+            <input id="firstName" name="firstName" type="text" placeholder="Enter your first name" required>
+
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" name="lastName" type="text" placeholder="Enter your last name" required> 
+            
+            <label for="flowerType">Flower Type:</label>
+            <select id="flowerType" required>
+            
+            </select> 
+    
+            <br><br>
+            <label for="quantity">Quantity:</label>
+            <input id="quantity" name="quantity" type="number" min="1" max="100" placeholder="How many flowers?" required> 
+            
+            <label for="specialRequest">Special Request:</label>
+            <input name="specialRequest" type="text" placeholder="Enter special request"> <br>
+
+            <label for="delivery">Delivery Date:</label>
+            <input type="date" id="delivery" name="delivery" required />
+
+            <label for="address">Delivery Address:</label>
+            <textarea id="address" name="address" rows="4" placeholder="Enter delivery address" required></textarea>
+
+            <button type="submit">Submit Order</button>
+
+          </form>
+
+        </section>
+      </main>    
+      <footer><p>&copy; AJ Floral 2025.</p></footer>
+      <script src="javascript/script.js"></script>
+</body>
+</html>
