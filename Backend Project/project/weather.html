@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jokecast Journal — Weather</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav row">
+      <div class="brand row">
+        <img src="images/logo.png" alt="logo" class="logo" />
+        <span class="name">🌤 Jokecast Journal</span>
+      </div>
+      <button class="hamburger" aria-label="open menu" title="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links row">
+        <li><a href="home.html">🏠 Home</a></li>
+        <li><a href="news.html">📰 News</a></li>
+        <li><a class="activo" href="weather.html">🌤 Weather</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container weather-main-grid">
+    <section class="card weather-form-card">
+      <h2>🌍 Find Weather</h2>
+      <form id="weather-form" class="col">
+        <input id="city-input" placeholder="Type city name (e.g., Houston)" required />
+        <button type="submit">Get Forecast</button>
+      </form>
+    </section>
+
+    <section class="card forecast-card">
+      <h2>🌤 Forecast</h2>
+      <div id="forecast-output" class="card-body">No forecast yet.</div>
+    </section>
+  </main>
+
+  <footer class="footer">🌤 Weather from Open-Meteo + Nominatim</footer>
+  <script src="app.js"></script>
+</body>
+</html>

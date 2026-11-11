@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jokecast Journal — News</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav row">
+      <div class="brand row">
+        <img src="images/logo.png" alt="logo" class="logo" />
+        <span class="name">📰 Jokecast Journal</span>
+      </div>
+      <button class="hamburger" aria-label="open menu" title="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links row">
+        <li><a href="home.html">🏠 Home</a></li>
+        <li><a class="activo" href="news.html">📰 News</a></li>
+        <li><a href="weather.html">🌤 Weather</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container news-grid">
+    <section class="card results-panel">
+      <h2>📰 Top Headlines</h2>
+      <div id="news-results" class="card-body">Loading headlines...</div>
+    </section>
+  </main>
+
+  <footer class="footer">📰 Jokecast — News powered by NewsData.io</footer>
+  <script src="app.js"></script>
+</body>
+</html>
