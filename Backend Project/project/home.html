@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jokecast Journal — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav row">
+      <div class="brand row">
+        <img src="images/logo.png" alt="logo" class="logo" />
+        <span class="name">🎉 Jokecast Journal</span>
+      </div>
+      <button class="hamburger" aria-label="open menu" title="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links row">
+        <li><a class="activo" href="home.html">🏠 Home</a></li>
+        <li><a href="news.html">📰 News</a></li>
+        <li><a href="weather.html">🌤 Weather</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container grid home-grid">
+    <section class="card weather-card">
+      <h2>🌤 Quick Weather</h2>
+      <form id="quick-weather-form" class="row">
+        <input id="quick-city" placeholder="Enter city (e.g., Austin)" />
+        <button type="submit">Get</button>
+      </form>
+      <div id="quick-weather-output" class="card-body">No forecast yet.</div>
+    </section>
+
+    <section class="card news-card">
+      <h2>📰 Top Headlines</h2>
+      <div id="news-preview" class="card-body">Loading headlines...</div>
+      <a href="news.html" class="small-link">Go to News page →</a>
+    </section>
+
+    <section class="card joke-card">
+      <h2>😂 Today's Joke</h2>
+      <div id="joke-box" class="card-body">Loading joke...</div>
+      <button id="new-joke" class="btn">New Joke</button>
+    </section>
+  </main>
+
+  <footer class="footer">© Jokecast Journal — demo project 🎨</footer>
+  <script src="app.js"></script>
+</body>
+</html>
