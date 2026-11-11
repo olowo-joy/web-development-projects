@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery - Joy Olowogbade</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="Joy Headshot" class="logo-img" />
+          <h1>Joy Olowogbade</h1>
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a class="active" href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="mode-toggle" aria-label="Toggle Dark/Light Mode">Dark/Light Mode</button>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <main>
+      <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/Family @ Jerusalem.jpg" alt="Gallery Image 1" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Family.jpg" alt="Gallery Image 2" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Benji.jpg" alt="Gallery Image 3" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Blessing (1).jpg" alt="Gallery Image 4" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Blessing!.jpg" alt="Gallery Image 5" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Gabi.JPG" alt="Gallery Image 6" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Isaac.JPG" alt="Gallery Image 7" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Ke'Reah.jpg" alt="Gallery Image 8" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Mom @ Jerusalem.jpg" alt="Gallery Image 9" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Ms.T.jpg" alt="Gallery Image 10" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Samry.jpg" alt="Gallery Image 11" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Sky.jpg" alt="Gallery Image 12" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Tori.jpg" alt="Gallery Image 13" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Turbo.jpg" alt="Gallery Image 14" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Victor.JPG" alt="Gallery Image 15" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy @ Christmas in Ohio.jpg" alt="Gallery Image 16" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy @ Juan Seguin.jpg" alt="Gallery Image 17" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy @ Kemah.JPG" alt="Gallery Image 18" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy @ Tori.jpg" alt="Gallery Image 19" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy in Airport.jpg" alt="Gallery Image 20" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy w Dad.jpg" alt="Gallery Image 21" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy w Nnajis.jpg" alt="Gallery Image 22" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy.JPG" alt="Gallery Image 23" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img id="littleJoy" src="images/Little Joy.jpg" alt="Gallery Image 24" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Small Joy.jpg" alt="Gallery Image 25" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/UBAwards.jpg" alt="Gallery Image 26" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy & Alirat @ AI.jpg" alt="Gallery Image 27" onclick="openLightbox(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <img src="images/Joy @ Proposal.jpg" alt="Gallery Image 28" onclick="openLightbox(this.src)" />
+          </div>
+        </div>
+      </section>
+      <section id="video-gallery">
+        <h2>Video Gallery</h2>
+        <div class="video-grid">
+          <div class="video-item">
+            <video class="video-thumbnail" onclick="openVideoLightbox('videos/twinkle.mp4')">
+              <source src="videos/twinkle.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="video-item">
+            <video class="video-thumbnail" onclick="openVideoLightbox('videos/Dad & Sophie.mp4')">
+              <source src="videos/Dad & Sophie.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="video-item">
+            <video class="video-thumbnail" onclick="openVideoLightbox('videos/Joy & Acelynn.mp4')">
+              <source src="videos/Joy & Acelynn.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="video-item">
+            <video class="video-thumbnail" onclick="openVideoLightbox('videos/Joy & Cousins.mp4')">
+              <source src="videos/Joy & Cousins.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="video-item">
+            <video class="video-thumbnail" onclick="openVideoLightbox('videos/Joy & Kemi (1).mp4')">
+              <source src="videos/Joy & Kemi (1).mp4" type="video/mp4" />
+            </video>
+          </div><div class="video-item">
+            <video class="video-thumbnail" onclick="openVideoLightbox('videos/Joy & Kemi (2).mp4')">
+              <source src="videos/Joy & Kemi (2).mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="video-item">
+            <video class="video-thumbnail" onclick="openVideoLightbox('videos/Joy @ K Christmas.mp4')">
+              <source src="videos/Joy @ K Christmas.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="video-item">
+            <video class="video-thumbnail" onclick="openVideoLightbox('videos/SquidGame_Trailer.MP4')">
+              <source src="videos/SquidGame_Trailer.MP4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="video-item">
+            <video class="video-thumbnail" onclick="openVideoLightbox('videos/Joy in Brown.mp4')">
+              <source src="videos/Joy in Brown.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="video-item">
+            <video class="video-thumbnail" onclick="openVideoLightbox('videos/Joy in Tan.mp4')">
+              <source src="videos/Joy in Tan.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="video-item">
+            <video class="video-thumbnail" onclick="openVideoLightbox('videos/Joy @ TTF.mp4')">
+              <source src="videos/Joy @ TTF.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="video-item">
+            <video class="video-thumbnail" onclick="openVideoLightbox('videos/Sophie Slipping.mp4')">
+              <source src="videos/Sophie Slipping.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+      <div id="lightboxModal" class="lightbox" onclick="closeLightbox()">
+        <img id="lightboxImage" src="" alt="Expanded Image" />
+      </div>
+      <div id="videoLightboxModal" class="lightbox" onclick="closeVideoLightbox(event)">
+        <video id="videoLightbox" controls>
+          <source src="" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 Joy Olowogbade. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
